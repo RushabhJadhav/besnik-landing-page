@@ -24,6 +24,125 @@ body {
     font-family: var(--secondary-font);
 }
 
+/* header section */
+header {
+    padding-bottom: 100px;
+}
+nav {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+    height: 100px;
+}
+nav ul {
+    display: inherit;
+}
+nav ul li {
+    list-style-type: none;
+    padding-right: 30px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: var(--black);
+}
+nav > .logo-cont {
+    position: absolute;
+    left: 50%;
+}
+.shopping-bag {
+    border: 1px solid var(--black);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+.shopping-bag img {
+    transform: translate(90%, 50%);
+}
+.header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+}
+.header-content-group {
+    width: 30%;
+    align-self: center;
+}
+.header-content-group h2.text-head {
+    font-size: 3.5rem;
+    line-height: 60px;
+}
+.header-content-group h2.text-head span {
+    border: 2px solid orange;
+    border-radius: 50%;
+}
+.header-content-group p {
+    margin: 25px 0 20px 0;
+    color: #535354;
+}
+.header-link a {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #222223;
+    padding: 8px 10px;
+    float: left;
+    font-size: 1rem;
+}
+.header-link > p {
+    padding-top: 10px;
+    padding-left: 50px;
+    color: #222223;
+}
+.header-image {
+    width: 60%;
+}
+.header-image img {
+    width: 100%;
+}
+.header-item-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 80px;
+    width: 90%;
+    margin: auto;
+}
+.header-item {
+    width: 230px;
+}
+.header-item p:last-child {
+    color: #5F5F64;
+}
+.header-item .text-head {
+    font-weight: bold;
+    margin: 10px 0;
+}
+.header-item img {
+    height: 30px;
+}
+.header-item:first-child > .text-head {
+    position: relative;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.header-item:first-child > .text-head > img {
+    position: absolute;
+    height: 50px;
+    top: -10px;
+    left: 40px;
+}
+.header-item:first-child > .text-head p:first-child {
+    margin-top: 20px;
+}
+
 /* social section */
 .socials {
     position: relative;
